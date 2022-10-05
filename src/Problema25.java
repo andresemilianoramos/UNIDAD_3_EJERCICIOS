@@ -8,7 +8,7 @@ public class Problema25 {
         int numero, MULTIPLICADOR;
 
 while (comprobar == true){ //coloco la variable while para que el programa siga ejecutandose hasta ingresar un numero correcto.
-        System.out.println("Ingrese un numeor entero positivo: ");
+        System.out.println("\nIngrese un numeor entero positivo: ");
         numero = lector.nextInt();
     System.out.println("¿Hasta que número deseas multiplicarlo?");
         MULTIPLICADOR = lector.nextInt(); //  ya que nos solicitan toda la tabla, lo cual es infinito... para hacerlo mas amigable he añadido esta variable.
