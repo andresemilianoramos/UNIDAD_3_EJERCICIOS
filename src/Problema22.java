@@ -19,7 +19,7 @@ write “sum from 1 to 10:” + sum
 write “product from 1 to 10:” + product
 
  */
-class Example22 {
+class Problema22 {
     public static void main(String[] argv) {
         int sum, product;
         sum = 0;
