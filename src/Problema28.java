@@ -12,7 +12,7 @@ public class Problema28 {
 
         do {
             suma+= a; b--;
-        } while (b !=0);
+        } while (b != 0);
         System.out.println("\nse a definido el porducto por medio de sumas sucesivas: --> "+suma
         );
     }
