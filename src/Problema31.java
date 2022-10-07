@@ -1,29 +1,22 @@
 import java.util.Scanner;
-
-public class Problema31
-{
-    public static void main(String[] args)
-    {
-        Scanner sc = new Scanner(System.in);
-
-        System.out.println("How many rows you want in this pattern?");
-
-        int rows = sc.nextInt();
-
-        System.out.println("aqui tienes tu patron =)....!!!");
-
-        for (int i = 1; i <= rows; i++)
-        {
-            for (int j = 1; j <= i; j++)
-            {
-                System.out.print(j);
+class Problema31 {
+    public static void main(String[] args){
+        Scanner s=new Scanner(System.in);
+        System.out.print ("Introduzca un número");
+        int n=s.nextInt();
+        for (int i = 1; i <= n; i ++) {// número de filas
+            for (int k = 1; k <= (n-i); k ++) {// Número de espacios por línea
+                System.out.print("  /");
             }
+            for(int x=-(i-1);x<=i-1;x++){
+                System.out.printf ("% 3d", Math.abs (x) +1); // La salida es un valor absoluto
 
-            for (int j = i+1; j <= rows; j++){}
-
+            }
+            for (int k = 1; k <= (n-i); k ++) {// Número de espacios por línea
+                System.out.print("  /");}
             System.out.println();
         }
 
-        sc.close();
     }
+
 }
