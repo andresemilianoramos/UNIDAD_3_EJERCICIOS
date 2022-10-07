@@ -1,3 +1,4 @@
+package Problema10;
 
 import java.util.Scanner;
 
