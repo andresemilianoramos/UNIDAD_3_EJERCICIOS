@@ -5,13 +5,13 @@ import java.util.Scanner;
             Scanner sc = new Scanner(System.in);
             double x = 1;
 
-            System.out.println("Ingrese el valor de a: ");
-            int a = sc.nextInt();
-            for(int k = 1; k<10 ; k++){
+            System.out.println("Ingrese el valor de n: ");
+            double n = sc.nextDouble();
+            for(double k = 1; k<=10 ; k++){
                 System.out.println(k);
-                x = (x + a/x) / 2;
+                x = (x + n/x) / 2;
             }
-            System.out.println("La raiz de " + a + " es de " + x);
+            System.out.println("La raiz de " + n + " es: " + x);
         }
 
     }
